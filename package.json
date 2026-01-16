@@ -1,0 +1,17 @@
+{
+  "name": "mcp-tfs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal MCP server for TFS work items",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/test-types.js",
+    "test:types": "node src/test-types.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "undici": "^6.19.8"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "baseUrl": "https://tfs.example.com:8080/tfs",
+  "collection": "DefaultCollection",
+  "project": "MyProject",
+  "patFile": "./.tfs.pat",
+  "apiVersion": "2.0",
+  "tls": {
+    "rejectUnauthorized": false
+  }
+}
